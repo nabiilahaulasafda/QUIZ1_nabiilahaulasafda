@@ -1,3 +1,22 @@
+<?php
+
+include("koneksi.php") ;
+
+$nidn = $_POST['nidn'];
+$nama = $_POST['nama'];
+$rumpun = $_POST['rumpun'];
+$tempat = $_POST['tempat'];
+$tanggal = $_POST['tanggal'];
+$email = $_POST['email'];
+
+$simpan = "INSERT INTO dosen (nidn, nama, rumpun, tempat, tanggal, email) VALUES ('$nidn','$nama','$rumpun','$tempat','$tanggal','$email')" ;
+
+mysqli_query($koneksi, $simpan);
+
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
