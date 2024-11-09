@@ -59,7 +59,7 @@ mysqli_query($koneksi, $simpan);
                 </tr>
                 <tr>
                   <td scope="row"> Email </td>
-                  <th>: <?= $agama ?> </th>
+                  <th>: <?= $email ?> </th>
                 </tr>
 
               </tbody>
