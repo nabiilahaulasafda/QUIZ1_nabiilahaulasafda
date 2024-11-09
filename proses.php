@@ -39,28 +39,28 @@ mysqli_query($koneksi, $simpan);
 
               <tbody>
                 <tr>
-                  <td scope="row"> NIDN </td>
-                  <th>: <?= $nidn ?> </th>
+                  <th scope="row"> NIDN </th>
+                  <td>: <?= $nidn ?> </td>
                 </tr>
                 <tr>
-                  <td scope="row"> Nama Lengkap </td>
-                  <th>: <?= $nama ?> </th>
+                  <th scope="row"> Nama Lengkap </th>
+                  <td>: <?= $nama ?> </td>
                 </tr>
                 <tr>
-                  <td scope="row"> Rumpun </td>
-                  <th>: <?= $rumpun ?> </th>
+                  <th scope="row"> Rumpun </th>
+                  <td>: <?= $rumpun ?> </td>
                 </tr>
                 <tr>
-                  <td scope="row"> Tempat Lahir </td>
-                  <th>: <?= $tempat ?> </th>
+                  <th scope="row"> Tempat Lahir </th>
+                  <td>: <?= $tempat ?> </td>
                 </tr>
                 <tr>
-                  <td scope="row"> Tanggal Lahir </td>
-                  <th>: <?= $tanggal ?> </th>
+                  <th scope="row"> Tanggal Lahir </th>
+                  <td>: <?= $tanggal ?> </td>
                 </tr>
                 <tr>
-                  <td scope="row"> Email </td>
-                  <th>: <?= $email ?> </th>
+                  <th scope="row"> Email </th>
+                  <td>: <?= $email ?> </td>
                 </tr>
 
               </tbody>
