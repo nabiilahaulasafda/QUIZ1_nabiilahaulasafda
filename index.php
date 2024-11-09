@@ -12,7 +12,7 @@
       <div class="col-6 m-auto">
       <div class="card">
   <div class="card-header">
-    <h3> Formulir Dosen </h1>
+    <h3> Formulir Dosen </h3>
   </div>
 
   <div class="card-body">
@@ -55,10 +55,9 @@
   </div>
 
   <button type="submit" class="btn btn-primary">Submit</button>
-  <button type="reset" class="btn btn-primary">Reset</button>
-</form>
-  </div>
-</div>
+            </form>
+        </div>
+        </div>
       </div>
     </div>
   </div>
